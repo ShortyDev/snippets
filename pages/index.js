@@ -20,11 +20,12 @@ export default function Home({container}) {
         }
         searchTerm.split(" ").forEach((term) => {
           if (term.length === 0) return;
+          let block = snippets.item(i).attributes.codeblock
           let title = snippets.item(i).attributes.getNamedItem("title").value.toLowerCase();
           let author = snippets.item(i).attributes.getNamedItem("author").value.toLowerCase();
           let language = snippets.item(i).attributes.getNamedItem("language").value.toLowerCase();
           let tags = snippets.item(i).attributes.getNamedItem("tags").value.toLowerCase();
-          let code = snippets.item(i).attributes.getNamedItem("code").value.toLowerCase();
+          let code = block !== undefined ? block.toLowerCase() : "";
           if (title.includes(term) || author.includes(term) || language.includes(term) || tags.includes(term) || code.includes(term))
             snippets[i].style.display = "block";
           else

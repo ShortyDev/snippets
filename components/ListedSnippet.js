@@ -11,11 +11,12 @@ const ListedSnippet = ({...props}) => {
   useEffect(() => {
     fetch('snippets/' + props.code).then(res => res.text()).then(data => {
       document.getElementById("code" + props.snippetId).innerHTML = data
+      document.getElementById("snip" + props.snippetId).attributes.codeblock = data
       hljs.highlightAll()
     })
   }, [props.snippetId, props.code])
   return (
-    <div className={styles["listed-snippet"]} {...props}>
+    <div id={"snip" + props.snippetId} className={styles["listed-snippet"]} {...props}>
       <div>
         {tags}
         <span className={styles["span-left"]}>{props.title}</span>
