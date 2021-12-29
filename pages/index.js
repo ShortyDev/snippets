@@ -6,7 +6,7 @@ import hljs from 'highlight.js';
 
 export default function Home({container}) {
   let loadedSnippets = [];
-  JSON.parse(container).forEach(snippet => {
+  JSON.parse(container).reverse().forEach(snippet => {
     loadedSnippets.push(<ListedSnippet key={snippet.props.title} title={snippet.props.title} author={snippet.props.author} language={snippet.props.language} snippetId={snippet.props.snippetId} tags={snippet.props.tags} code={snippet.props.code}/>)
   });
   useEffect(() => {
