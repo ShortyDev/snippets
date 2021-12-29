@@ -9,6 +9,15 @@
         "Hello World",
         "First"
       ]
+    },
+    {
+      "title": "Test",
+      "language": "Java",
+      "author": "JoeyPlayzTV",
+      "path": "test.java",
+      "tags": [
+        "Test"
+      ]
     }
   ]
 }
