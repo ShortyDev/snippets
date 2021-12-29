@@ -1,0 +1,14 @@
+{
+  "snippets": [
+    {
+      "title": "Print Hello World",
+      "language": "Java",
+      "author": "Shorty",
+      "path": "0_1.java",
+      "tags": [
+        "Hello World",
+        "First"
+      ]
+    }
+  ]
+}
