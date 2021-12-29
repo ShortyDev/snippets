@@ -6,6 +6,7 @@ import hljs from 'highlight.js';
 
 export default function Home({container}) {
   let loadedSnippets = [];
+  console.log(container)
   JSON.parse(container).forEach(snippet => {
     loadedSnippets.push(<ListedSnippet key={snippet.props.title} title={snippet.props.title} author={snippet.props.author} language={snippet.props.language} tags={snippet.props.tags} code={snippet.props.code}/>)
   });
@@ -66,7 +67,7 @@ export default function Home({container}) {
 const environment = "production";
 const path = environment === "production" ? "https://snippets.shortydev.eu/" : "http://localhost:3000/";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   let container = [];
   let response = await fetch(path + 'snippets/desc.json');
   response = await response.json();
