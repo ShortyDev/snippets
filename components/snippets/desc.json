@@ -18,6 +18,17 @@
       "tags": [
         "Test"
       ]
+    },
+    {
+      "title": "Delete all blocks between two locations",
+      "language": "Java",
+      "author": "Shorty",
+      "path": "0_2.java",
+      "tags": [
+        "Spigot",
+        "Minecraft",
+        "Math"
+      ]
     }
   ]
 }
