@@ -20,6 +20,13 @@
         "Minecraft",
         "Math"
       ]
+    },
+    {
+      "title": "Count occurrences of a string in a string",
+      "language": "Java",
+      "author": "Shorty",
+      "path": "0_ShortyDev_2.java",
+      "tags": []
     }
   ]
 }
