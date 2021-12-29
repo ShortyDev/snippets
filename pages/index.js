@@ -69,14 +69,14 @@ const path = environment === "production" ? "https://snippets.shortydev.eu/" : "
 
 export async function getStaticProps(context) {
   let container = [];
-  let response = await fetch(path + 'snippets/desc.json');
+/*  let response = await fetch(path + 'snippets/desc.json');
   response = await response.json();
   for (const snippet of JSON.parse(JSON.stringify(response)).snippets) {
     let snip = await fetch(path + 'snippets/' + snippet.path);
     snip = await snip.text();
     container.push(<ListedSnippet key={snippet.id} title={snippet.title} author={snippet.author}
                                   language={snippet.language} tags={snippet.tags} code={snip}/>)
-  }
+  }*/
   return {
     props: {
       container: JSON.stringify(container)
