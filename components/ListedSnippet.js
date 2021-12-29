@@ -16,9 +16,11 @@ const ListedSnippet = ({...props}) => {
   }, [props.snippetId, props.code])
   return (
     <div className={styles["listed-snippet"]} {...props}>
-      {tags}
-      <span className={styles["span-left"]}>{props.title}</span>
-      <span className={styles["span-right"]}>{`${props.author} // ${props.language}`}</span>
+      <div>
+        {tags}
+        <span className={styles["span-left"]}>{props.title}</span>
+        <span className={styles["span-right"]}>{`${props.author} // ${props.language}`}</span>
+      </div>
       <div name={"snippet"} className={styles.code}>
         <pre>
           <code id={"code" + props.snippetId} className={"java"}>

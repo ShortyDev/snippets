@@ -34,7 +34,7 @@ export default function Home({container}) {
     }
     search.addEventListener('input', inputHandler)
     for (let i = 0; i < snippets.length; i++) {
-      snippets.item(i).addEventListener('click', () => {
+      snippets.item(i).firstChild.addEventListener('click', () => {
         let open = snippets.item(i).attributes.open;
         open = !open
         snippets.item(i).attributes.open = open;
