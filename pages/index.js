@@ -15,6 +15,9 @@ export default function Home({container}) {
     const inputHandler = (e) => {
       let searchTerm = e.target.value.toLowerCase();
       for (let i = 0; i < snippets.length; i++) {
+        if (searchTerm.length === 0) {
+          snippets[i].style.display = "block";
+        }
         searchTerm.split(" ").forEach((term) => {
           if (term.length === 0) return;
           let title = snippets.item(i).attributes.getNamedItem("title").value.toLowerCase();

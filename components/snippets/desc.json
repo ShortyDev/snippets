@@ -11,15 +11,6 @@
       ]
     },
     {
-      "title": "Test",
-      "language": "Java",
-      "author": "JoeyPlayzTV",
-      "path": "test.java",
-      "tags": [
-        "Test"
-      ]
-    },
-    {
       "title": "Delete all blocks between two locations",
       "language": "Java",
       "author": "Shorty",
