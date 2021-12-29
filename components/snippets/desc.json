@@ -11,9 +11,9 @@
       ]
     },
     {
-      "title": "Delete all blocks between two locations",
+      "title": "Set all blocks between two locations to air",
       "language": "Java",
-      "author": "Shorty",
+      "author": "ShortyDev",
       "path": "0_ShortyDev_1.java",
       "tags": [
         "Spigot",
@@ -24,9 +24,85 @@
     {
       "title": "Count occurrences of a string in a string",
       "language": "Java",
-      "author": "Shorty",
+      "author": "ShortyDev",
       "path": "0_ShortyDev_2.java",
-      "tags": []
+      "tags": [
+        "String"
+      ]
+    },
+    {
+      "title": "Abstract CoolDown class with generics",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_3.java",
+      "tags": [
+        "Time",
+        "Cooldown"
+      ]
+    },
+    {
+      "title": "Join objects to a string by a delimiter",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_4.java",
+      "tags": [
+        "String",
+        "Streams"
+      ]
+    },
+    {
+      "title": "Create an empty string array",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_5.java",
+      "tags": [
+        "String",
+        "Arrays"
+      ]
+    },
+    {
+      "title": "Create a string array by variable args",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_6.java",
+      "tags": [
+        "String",
+        "Arrays"
+      ]
+    },
+    {
+      "title": "Skip items in an array",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_7.java",
+      "tags": [
+        "String",
+        "Arrays",
+        "Streams"
+      ]
+    },
+    {
+      "title": "Merge an array with variable args",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_8.java",
+      "tags": [
+        "String",
+        "Arrays",
+        "Merge",
+        "Streams"
+      ]
+    },
+    {
+      "title": "Get public ip address",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_9.java",
+      "tags": [
+        "Networking",
+        "HTTP",
+        "IP"
+      ]
     }
   ]
 }
