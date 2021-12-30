@@ -105,7 +105,7 @@
       ]
     },
     {
-      "title": "Rotate x, y, z coordinates around y axis",
+      "title": "Rotate x, z coordinates around y axis",
       "language": "Java",
       "author": "ShortyDev",
       "path": "0_ShortyDev_10.java",
@@ -113,6 +113,26 @@
         "Spigot",
         "BlockVector",
         "Angular functions"
+      ]
+    },
+    {
+      "title": "Get random alphanumeric string",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_11.java",
+      "tags": [
+        "String",
+        "Random"
+      ]
+    },
+    {
+      "title": "Get random text string",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_12.java",
+      "tags": [
+        "String",
+        "Random"
       ]
     }
   ]
