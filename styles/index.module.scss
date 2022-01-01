@@ -17,6 +17,7 @@
   width: 100%;
   max-height: 100px;
   overflow: hidden;
+  position: fixed;
   @apply flex flex-row;
 }
 .search {
@@ -31,4 +32,12 @@
 }
 .snippet-list {
   @apply flex flex-col;
+}
+.darkModeToggle {
+  min-height: 100%;
+  vertical-align: center;
+  float: right;
+  margin-left: auto;
+  margin-right: 2%;
+  @apply flex items-center;
 }
