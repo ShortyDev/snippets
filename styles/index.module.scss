@@ -31,6 +31,7 @@
   @apply grow;
 }
 .snippet-list {
+  padding-top: 75px;
   @apply flex flex-col;
 }
 .darkModeToggle {
