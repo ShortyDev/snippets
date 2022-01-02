@@ -10,9 +10,17 @@ const ListedSnippet = ({...props}) => {
     )
   })
   useEffect(() => {
+    function htmlencode(text) {
+      return (
+        text
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+      );
+    }
     fetch('snippets/' + props.code).then(res => res.text()).then(data => {
-      document.getElementById("code" + props.snippetId).innerHTML = data
-      document.getElementById("snip" + props.snippetId).attributes.codeblock = data
+      document.getElementById("code" + props.snippetId).innerHTML = htmlencode(data)
+      document.getElementById("snip" + props.snippetId).attributes.codeblock = htmlencode(data)
       hljs.highlightAll()
     })
   }, [props.snippetId, props.code])
