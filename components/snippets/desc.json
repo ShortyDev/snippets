@@ -134,6 +134,15 @@
         "String",
         "Random"
       ]
+    },
+    {
+      "title": "ListedCache class",
+      "language": "Java",
+      "author": "ShortyDev",
+      "path": "0_ShortyDev_13.java",
+      "tags": [
+        "Caching"
+      ]
     }
   ]
 }
