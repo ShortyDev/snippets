@@ -105,7 +105,7 @@ export default function Home({container}) {
             </a>
         </div>
         <div className={styles["top-bar"]}>
-          <h1 id={"title"} className={styles["title"]}><span className={styles["title-small"]}>shorty // </span>snippets
+          <h1 id={"title"} className={styles["title"]}><span className={styles["title-small"]}><a href="https://shortydev.eu">shorty //</a> </span>snippets
           </h1>
           <div>
             <input id="search" className={styles["search"]} type="search" placeholder={"search here..."}/>
