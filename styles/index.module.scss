@@ -42,3 +42,25 @@
   margin-right: 2%;
   @apply flex items-center;
 }
+.contribute {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  @apply flex flex-row items-center;
+}
+.contribute * {
+  margin: 5px;
+}
+.contribute:hover {
+  animation-duration: 0.5s;
+  animation-name: shake;
+}
+
+@keyframes shake {
+  30% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+}

@@ -96,6 +96,14 @@ export default function Home({container}) {
       </Head>
 
       <main>
+        <div className={styles["contribute"]}>
+            <a href="https://github.com/ShortyDev/snippets/fork">
+              <span>Contribute on GitHub</span>
+            </a>
+            <a href="https://github.com/ShortyDev/snippets">
+              <img src="GitHub-Mark-32px.png" width={32} height={32} alt="GitHub Logo" />
+            </a>
+        </div>
         <div className={styles["top-bar"]}>
           <h1 id={"title"} className={styles["title"]}><span className={styles["title-small"]}>shorty // </span>snippets
           </h1>
